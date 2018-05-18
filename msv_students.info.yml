@@ -1,0 +1,5 @@
+name: 'msv_students'
+type: module
+description: 'Module for the Management of Contact Information regarding Students and their parents'
+core: 8.x
+package: 'Custom'

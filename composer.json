@@ -1,0 +1,14 @@
+{
+  "name": "drupal/msv_students",
+  "type": "drupal-module",
+  "description": "Module for the Management of Contact Information regarding Students and their parents",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/msv_students",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/msv_students",
+    "source": "http://cgit.drupalcode.org/msv_students"
+  },
+  "require": { }
+}

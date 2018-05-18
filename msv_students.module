@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains msv_students.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function msv_students_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the msv_students module.
+    case 'help.page.msv_students':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module for the Management of Contact Information regarding Students and their parents') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function msv_students_theme() {
+  return [
+    'msv_students' => [
+      'render element' => 'children',
+    ],
+  ];
+}
