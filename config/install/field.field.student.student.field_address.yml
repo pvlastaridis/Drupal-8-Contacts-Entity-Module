@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.student.field_address
+  module:
+    - msv_students
+id: student.student.field_address
+field_name: field_address
+entity_type: student
+bundle: student
+label: Διεύθυνση
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

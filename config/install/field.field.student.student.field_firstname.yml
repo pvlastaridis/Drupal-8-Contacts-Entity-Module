@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.student.field_firstname
+  module:
+    - msv_students
+id: student.student.field_firstname
+field_name: field_firstname
+entity_type: student
+bundle: student
+label: Όνομα
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.student.field_class
+    - taxonomy.vocabulary.classes
+  module:
+    - msv_students
+id: student.student.field_class
+field_name: field_class
+entity_type: student
+bundle: student
+label: Τάξη
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      classes: classes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: classes
+field_type: entity_reference

@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.student.field_mothers_mobile
+  module:
+    - msv_students
+id: student.student.field_mothers_mobile
+field_name: field_mothers_mobile
+entity_type: student
+bundle: student
+label: 'Κινητό μητέρας'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
